@@ -1,0 +1,25 @@
+extensions:
+  auto close tag
+  auto rename tag
+  bracket pair colorizer 2
+  C# for visual studio code (powered by OmniSharp)
+  C# Extensions
+  ES7 React/Redux/GraphQL/React-Native snippets
+  Material Icon Theme
+  Nuget Package Manager
+  Prettier
+  SQlite
+
+Commands:
+  dotnet --info  
+  dotnet new sln (will create solution name same as containing folder.)
+  dotnet new classlib -n Domain
+  dotnet new classlib -n Application
+  dotnet new classlib -n Persistence (DB things)
+  dotnet new webapi -n API
+  dotnet sln -h (to see the option commands): 
+    Commands:
+      add <PROJECT_PATH>      Add one or more projects to a solution file.
+      list                    List all projects in a solution file.
+      remove <PROJECT_PATH>   Remove one or more projects from a solution file.
+  
