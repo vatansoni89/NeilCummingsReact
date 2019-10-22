@@ -23,3 +23,10 @@ Commands:
       list                    List all projects in a solution file.
       remove <PROJECT_PATH>   Remove one or more projects from a solution file.
   
+
+Application:
+  Domain
+  Persistence
+
+API:
+  Application  
