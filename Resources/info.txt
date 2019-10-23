@@ -25,8 +25,10 @@ Commands:
   
 
 Application:
-  Domain
-  Persistence
+  Domain (PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities\Application> dotnet add reference ../Domain/)
+  Persistence (PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities\Application> dotnet add reference ../Persistence/)
+    Domain  PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities\persistence> dotnet add reference ../Domain/
+  
 
 API:
   Application  
