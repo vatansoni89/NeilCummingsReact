@@ -24,7 +24,11 @@ Commands:
       remove <PROJECT_PATH>   Remove one or more projects from a solution file.
   dotnet run -p API/ (to run application with default project.)
   EF Migration:
+    PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities> dotnet ef migrations add SeedValues -p Persistence/ -s API/
     dotnet ef migrations add InitialCreate -p Persistence/ -s API/
+  dotnet watch run:
+    run only from inside startup project context
+    PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities\API> dotnet watch run
   
 
 Application:
@@ -34,4 +38,4 @@ Application:
   
 
 API:
-  Application  
+  Application
