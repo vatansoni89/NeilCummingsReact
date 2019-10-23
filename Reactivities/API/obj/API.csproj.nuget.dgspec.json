@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\api\\API.csproj": {}
+    "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\api\\API.csproj": {
+    "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\api\\API.csproj",
+        "projectUniqueName": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\api\\API.csproj",
+        "projectPath": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\z003d4ks\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\api\\obj\\",
+        "outputPath": "D:\\Data\\Vatan\\Learnings\\AA Authors\\NeilCummings\\NeilCummingsReact\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -219,6 +219,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

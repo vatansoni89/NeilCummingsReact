@@ -22,6 +22,9 @@ Commands:
       add <PROJECT_PATH>      Add one or more projects to a solution file.
       list                    List all projects in a solution file.
       remove <PROJECT_PATH>   Remove one or more projects from a solution file.
+  dotnet run -p API/ (to run application with default project.)
+  EF Migration:
+    dotnet ef migrations add InitialCreate -p Persistence/ -s API/
   
 
 Application:
