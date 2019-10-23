@@ -44,3 +44,12 @@ Git:
   PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities>   git add .
   git add .
   git commit -m "sample message"  
+
+Create React App with TypeScript and NPM support:
+  npx create-react-app client-app --use-npm --typescript 
+  We suggest that you begin by typing: 
+    cd client-app
+    npm start
+
+tsconfig.json:
+  to configure code realated stuff like strict type checking.    
