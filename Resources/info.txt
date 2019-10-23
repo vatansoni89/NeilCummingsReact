@@ -39,3 +39,8 @@ Application:
 
 API:
   Application
+
+Git:
+  PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities>   git add .
+  git add .
+  git commit -m "sample message"  
