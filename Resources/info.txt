@@ -62,3 +62,5 @@ Fetch data from api's get method:
   CORS:
     Added code in API/Startup.cs    
 
+semantic-ui-react:
+  npm install semantic-ui-react
