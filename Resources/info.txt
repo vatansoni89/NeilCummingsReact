@@ -64,3 +64,6 @@ Fetch data from api's get method:
 
 semantic-ui-react:
   npm install semantic-ui-react
+
+Added Migration for Activity Domain:
+  dotnet ef migrations add "ActivityEntityAdded" -p Persistence/ -s API/  
