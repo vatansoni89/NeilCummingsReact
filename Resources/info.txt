@@ -52,4 +52,13 @@ Create React App with TypeScript and NPM support:
     npm start
 
 tsconfig.json:
-  to configure code realated stuff like strict type checking.    
+  to configure code realated stuff like strict type checking.
+
+Fetch data from api's get method:
+  Axios:
+    to make http calls.
+    npm install Axios
+      PS D:\Data\Vatan\Learnings\AA Authors\NeilCummings\NeilCummingsReact\Reactivities\client-app> npm install axios
+  CORS:
+    Added code in API/Startup.cs    
+
