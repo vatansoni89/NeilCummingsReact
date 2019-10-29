@@ -67,3 +67,18 @@ semantic-ui-react:
 
 Added Migration for Activity Domain:
   dotnet ef migrations add "ActivityEntityAdded" -p Persistence/ -s API/  
+
+
+CQRS:
+  Command:
+    Modifies state
+    Should not return value.
+    use Domain.
+  Query:
+    Does not Modifies state.
+    Should return value.      
+    use Database.
+
+MediatR:
+  Added to Application.csproj
+  
